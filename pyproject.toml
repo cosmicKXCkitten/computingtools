@@ -1,7 +1,7 @@
 [project]
 name = "computingtools"
 version = "0.1.0"
-description = ""
+description = "This package is used to perform numerical experiments and provides a convenient interface for using various numerical methods."
 authors = [
     {name = "Konstantin Epishin",email = "konstantinepishin@icloud.com"}
 ]
@@ -16,3 +16,7 @@ dependencies = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+
